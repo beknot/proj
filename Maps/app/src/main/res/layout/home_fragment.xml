@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/homepage"
+    android:orientation="vertical"
+    android:weightSum="2">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/btnPanic"
+            android:layout_width="172dp"
+            android:layout_height="174dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/panic" />
+
+        <EditText
+            android:id="@+id/etMsg"
+            android:layout_width="173dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/btnPanic"
+            android:ems="10"
+            android:inputType="textMultiLine" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/btnPanic"
+            android:layout_marginEnd="81dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/btnHospital"
+            style="@style/button"
+            android:layout_width="164dp"
+            android:layout_height="121dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:drawableTop="@drawable/hospital1"
+            android:text="Hospital" />
+
+        <Button
+            android:id="@+id/btnPolice"
+            style="@style/button"
+            android:layout_width="164dp"
+            android:layout_height="122dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="12dp"
+            android:drawableTop="@drawable/police"
+            android:text="Police" />
+
+        <Button
+            android:id="@+id/btnAmbulance"
+            style="@style/button"
+            android:layout_width="166dp"
+            android:layout_height="129dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:drawableTop="@drawable/ambulance"
+            android:text="Ambulance" />
+
+        <Button
+            android:id="@+id/btnFire"
+            style="@style/button"
+            android:layout_width="167dp"
+            android:layout_height="129dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/btnPolice"
+            android:drawableTop="@drawable/firetruck"
+            android:text="Fire" />
+    </RelativeLayout>
+</LinearLayout>

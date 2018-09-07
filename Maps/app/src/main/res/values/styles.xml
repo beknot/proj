@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryBlue</item>
+        <item name="colorAccent">@color/PrimaryBlue</item>
+    </style>
+    <style name="button">
+        <item name="android:background">@drawable/button</item>
+    </style>
+    <style name="button2">
+        <item name="android:background">@drawable/map_button</item>
+    </style>
+
+</resources>

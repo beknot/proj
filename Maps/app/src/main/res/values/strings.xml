@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Quick Contacts</string>
+    <string name="title_activity_maps">Quick Contacts</string>
+    <string name="open">drawer_open</string>
+    <string name="close">drawer_close</string>
+    
+    <string-array name="messages">
+        <item>Select messages</item>
+        <item>I need help.</item>
+        <item>Help me with cash.</item>
+        <item>I am out of fuel !</item>
+        <item>I lost my purse.</item>
+    </string-array>
+</resources>
